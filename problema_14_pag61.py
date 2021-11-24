@@ -1,0 +1,7 @@
+a=set(input('Introduceți elementele primului șir: '))
+b=set(input('Introduceți elementele celui de-al doilea șir: '))
+a.discard(' ')
+b.discard(' ')
+print('caracterele care se întâlnesc cel puţin în unul dintre şiruri: ',a.union(b))
+print('Caracterele care apar în ambele şiruri: ',a.intersection(b))
+print('Caracterele care apar în primul şi nu apar în şirul al doilea: ',a.difference(b))
